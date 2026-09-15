@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.idea/
+log.txt
+
+# Fotos tiradas pelas crianças e modelo treinado (arquivos pessoais/grandes,
+# não fazem parte do código-fonte do projeto)
+data/*/*.jpg
+data/*/*.jpeg
+data/*/*.png
+models/*.keras
+models/*.json
